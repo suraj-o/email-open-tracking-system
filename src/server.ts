@@ -87,6 +87,3 @@ server.get("/api/v1/mail/all-mails",async(req:Request,res:Response,next:NextFunc
 })
 
 server.listen(PORT,()=>console.log(`server is running on port ${PORT}`))
-
-
-
